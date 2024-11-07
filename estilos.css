@@ -1,0 +1,80 @@
+/* Fondo de inicio de sesión */
+
+QWidget {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo de los campos de texto */
+QLineEdit {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilo de los botones */
+QPushButton {
+    background-color: #0078d4;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+/* Efecto hover en los botones */
+QPushButton:hover {
+    background-color: #005fa3;
+}
+
+/* Estilo del Dashboard */
+QMainWindow {
+    background-color: #2e2e2e;
+}
+
+/* Etiquetas del Dashboard */
+QLabel {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilo de los botones en Dashboard */
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+/* Efecto hover en botones del Dashboard */
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+
+/* Estilo para QMessageBox */
+QMessageBox {
+    background-color: #444444;
+    color: white;
+    font-size: 16px;
+    border: 2px solid #0078d4;
+}
+
+QMessageBox QLabel {
+    color: white;
+}
+
+QMessageBox QPushButton {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #005fa3;
+}
